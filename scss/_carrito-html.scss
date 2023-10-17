@@ -1,0 +1,39 @@
+/*_carrito-html*/
+
+.carrito-producto{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 1rem;
+    background-color: $third;
+    border-radius: 1rem;
+    margin: 10px;
+}
+
+.carrito-producto-imagen{
+    width: 4rem;
+    border: 2rem;
+}
+
+.carrito-producto-titulo{
+    margin: auto;
+}
+
+.carrito-producto-cantidad{ 
+    margin: auto;
+}
+
+.carrito-producto-precio{
+    margin: auto;
+}
+
+.carrito-producto-subtotal{
+    margin: auto;
+}
+
+.carrito-producto-eliminar{
+    margin: 10px;
+    padding: 10px;
+    background-color: transparent;
+    border: 0;
+}
